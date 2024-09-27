@@ -26,13 +26,13 @@ function kurangiKesehatan(
   if (kesehatanPrajurit <= 0) {
     console.log("Prajurit tidak bisa bertarung lagi!");
   } else {
-    console.log(`Kesehatan prajurit sekarang: ${kesehatanPrajurit}`);
+    console.log(`Kesehatan prajurit sekarang: ${kesehatanPrajurit}` + "\n");
   }
 }
 
 // Fungsi untuk menampilkan rangkuman hasil misi
 function rangkumanMisi(): void {
-  console.log("Rangkuman Misi Arion:");
+  console.log("RANGKUMAN MISI : \n");
   console.log(`Nama Pahlawan: ${namaPahlawan}`);
   console.log(`Emas yang dikumpulkan: ${emasTambahan}`);
   console.log(`Poin pengalaman yang didapat: ${pengalamanBertarung}`);
